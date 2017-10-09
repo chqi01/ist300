@@ -1,0 +1,142 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "open sans", sans-serif;
+}
+
+.row {
+	max-width:1000px;
+	margin: 0 auto;
+}
+
+header{
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+    z-index: 300;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+	}
+	
+header .logo{
+	background:#000;
+}
+
+header .logo h1{
+	margin:0;
+    font-style:italic;
+	padding:15px;
+	color:#e4ecff;
+	font-size:25px;
+	margin:0;
+	text-align:center;
+}
+
+header nav{
+	position:relative;
+	float:left;
+	background-color:#e4ecff;
+	height:100px;	
+	width:100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+header .nav ul li{
+	display:inline-block;
+	position:abosulute;
+	float:left;
+	color:#030b1e;
+	text-decoration:none;
+	font-size:35px;
+	margin:10px;
+	bottom:105px;
+	text-decoration:none;
+}
+
+header .nav ul li a,visited {
+	text-decoration:none;
+}
+
+header .nav ul li:hover{
+	background-color:#030b1e;
+	color:#e4ecff;
+}
+
+header .nav ul li:hover ul{
+	display:block;
+}
+
+header .nav ul ul{
+	display:none;
+	position:absolute;
+	color:#000;
+}
+
+header .nav ul ul li{
+	display:block;
+}
+
+header .nav ul ul li a,visited{
+	color:#000;
+}
+
+section.hero {
+	margin-top:195px;
+	position:relative;
+	height:100vh;
+	background-image: url('../images/guineapig1.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+
+section.hero h1{
+	position:abosulute;
+	top:0;
+	margin-top:0;
+	font-size:50px;
+	float:left;
+	color:#fff;
+	width:100%;
+}
+
+section.hero .first{
+	position:abosulute;
+	float:left;
+	width:232px;
+	margin-right:30px;
+	
+}
+
+section.hero .first .title{
+	height:70px;
+	margin:0;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+}
+section.hero .first .title h3{
+	margin:0;
+}
+
+section.hero .first .content{
+	background-color:rgba(0,0,0,0.3);
+	color:#fff;
+	height:200px;
+}
+
+section.hero .first .content ul{
+	margin:0;
+}
+
+section.hero .first .more{
+	margin:0;
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	height:70px;
+}
+
+section.hero .first .more a{
+	text-decoration:none;
+}
